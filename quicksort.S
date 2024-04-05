@@ -1,10 +1,10 @@
 .data
 
 .text
-    formatstr:      .asciz "%lu"
-    format_out:     .asciz "%lu "
+    formatstr:      .asciz "%ld"
+    format_out:     .asciz "%ld "
     input_num:      .asciz "Enter the number of elements: "
-    input_element:  .asciz "Enter %lu space-separated integers: "
+    input_element:  .asciz "Enter %ld space-separated integers: "
     output_str:     .asciz "Sorted array: "
     
 .global main
