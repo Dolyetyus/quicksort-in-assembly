@@ -12,7 +12,7 @@ main:
     pushq   %rbp
     movq    %rsp, %rbp
 
-    subq    $16, %rsp                   # allocate space for one 8-byte variable on the stack
+    subq    $16, %rsp                   # allocate space for two quadword variable on the stack
     
     leaq    input_num(%rip), %rdi
     call    printf
