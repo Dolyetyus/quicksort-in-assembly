@@ -4,7 +4,7 @@
     formatstr:      .asciz "%lu"
     format_out:     .asciz "%lu "
     input_num:      .asciz "Enter the number of elements: "
-    input_element:  .asciz "Enter %lu space-separated integers (press enter after each element): "
+    input_element:  .asciz "Enter %lu space-separated integers: "
     output_str:     .asciz "Sorted array: "
     
 .global main
