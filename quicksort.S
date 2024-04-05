@@ -9,7 +9,7 @@
     
 .global main
 main:
-	pushq   %rbp
+    pushq   %rbp
     movq    %rsp, %rbp
 
     subq    $16, %rsp                   # allocate space for one 8-byte variable on the stack
